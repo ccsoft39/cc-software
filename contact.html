@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>C.C. Software || İletişim</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+<p style="font-size:12px;opacity:0.6">Demo Proje Sitesidir.</p>
+	<header>
+		<div class="logo">
+			<img src="images/logo.jpeg" alt="C.C. Software Logo">
+			<span>C.C. Software</span>
+		</div>
+
+		<nav>
+			<a href="index.html" data-key="home">Ana Sayfa</a>
+			<a href="about.html" data-key="about">Hakkımızda</a>
+			<a href="services.html" data-key="services">Hizmetler</a>
+			<a href="contact.html" class="active" data-key="contact">İletişim</a>
+		</nav>
+		<div class="lang">
+			<button onclick="setLanguage('tr')">tr</button>
+			<button onclick="setLanguage('en')">en</button>
+		</div>
+
+	</header>
+<section class="contact" id="contact">
+		<h2 data-key="contactTitle">İletişim</h2>
+
+		<form>
+			<input type="text" placeholder="Ad Soyad" data-key-placeholder="name">
+			<input type="email" placeholder="E-posta" data-key-placeholder="email">
+			<textarea placeholder="Mesajınız" data-key-placeholder="message"></textarea>
+			<button type="submit" data-key="send">Gönder</button>
+		</form>
+	</section>
+
+	<script src="js/lang.js"></script>
+
+	<footer class="footer">
+    <div class="footer-container">
+    	<p style="font-size:12px;opacity:0.6">
+			Bu site portföy ve demo amaçlı hazırlanmıştır.
+		</p>
+
+        <div class="footer-col">
+            <h3>C.C. Software</h3>
+            <p>
+                Web, mobil ve özel yazılım çözümleri sunan profesyonel yazılım firması.
+            </p>
+        </div>
+
+        <div class="social-icons">
+    		<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+   			 <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+    		<a href="#" target="_blank"><i class="fab fa-github"></i></a>
+		</div>
+
+        <div class="footer-col">
+            <h4>Menü</h4>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="services.html">Hizmetler</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>İletişim</h4>
+            <p>Email: ornek@ccsoftware.com</p>
+            <p>Telefon: +90 5xx xxx xx xx</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2025 C.C. Software. Tüm hakları saklıdır.
+    </div>
+</footer>
+
+</body>
+</html>
