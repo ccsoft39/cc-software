@@ -390,12 +390,13 @@ nav a.active::after {
     transform: translateY(-3px);
 
 }
-.service-card img {
+.service-cards img {
     width: 80px;
     margin-bottom: 15px;
     transition: 0.3s;
 }
 
-.service-card:hover img {
+.service-cards:hover img {
     transform: scale(1.1);
 }
+
