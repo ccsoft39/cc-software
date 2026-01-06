@@ -399,4 +399,7 @@ nav a.active::after {
 .service-cards:hover img {
     transform: scale(1.1);
 }
+.service cards {
+	text-align: center;
+}
 
